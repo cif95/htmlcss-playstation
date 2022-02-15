@@ -8,12 +8,20 @@
 	background-color: #CD3D0F;
 }
 
-#header-top img{
-	width: 80px;
+.ms-text-blue{
+	color:#2E8BD6;
+}
+
+.ms-fs-large{
+	font-size:3.5rem;
 }
 
 header .navbar img.ms-lens{
 	width:50%;
+}
+
+#header-top img{
+	width: 80px;
 }
 
 section#game-window>.container-fluid:first-of-type{
@@ -21,10 +29,14 @@ section#game-window>.container-fluid:first-of-type{
 	background: url(../img/jumbo-bg.png) top / cover;
 }
 
-section#game-window .returnal-jumbo{
+section#game-window .returnal-banner{
 	height:95%;
 }
 
 section#game-window .ms-game-logo{
+	width:50%;
+}
+
+section#console5 figure.ms-card img{
 	width:50%;
 }
