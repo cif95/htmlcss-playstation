@@ -1,8 +1,12 @@
 section#returnal>.container-fluid:first-of-type{
 	height:70vh;
-	background: url(../img/jumbo-bg.png) center / cover;
+	background: url(../img/jumbo-bg.png) top / cover;
 }
 
-.my-pt-20{
-	padding-top:20rem;
+section#returnal .returnal-jumbo{
+	height:65vh;
+}
+
+section#console5 .ms-card{
+	
 }
