@@ -12,6 +12,10 @@
 	color:#2E8BD6;
 }
 
+.ms-rounded-4{
+	border-radius:1rem;
+}
+
 .ms-fs-large{
 	font-size:3.5rem;
 }
