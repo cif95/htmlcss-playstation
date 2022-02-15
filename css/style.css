@@ -16,27 +16,29 @@
 	font-size:3.5rem;
 }
 
+.banner-content{
+	height:95%;
+}
+
 header .navbar img.ms-lens{
 	width:50%;
 }
 
 #header-top img{
-	width: 80px;
+	width:80px;
 }
 
-section#game-window>.container-fluid:first-of-type{
+section#returnal>.container-fluid:first-of-type{
 	height:70vh;
 	background: url(../img/jumbo-bg.png) top / cover;
 }
 
-section#game-window .returnal-banner{
-	height:95%;
-}
-
-section#game-window .ms-game-logo{
-	width:50%;
-}
-
+.ms-banner-logo,
 section#console5 figure.ms-card img{
 	width:50%;
+}
+
+section#it-takes-two>.container-fluid{
+	height:70vh;
+	background: url(../img/it-takes-two-hero-banner-desktop.jpg) top / cover;
 }
