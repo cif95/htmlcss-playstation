@@ -1,12 +1,30 @@
-section#returnal>.container-fluid:first-of-type{
+
+
+.ms-bg-darkgrey{
+	background-color: #363636;
+}
+
+.ms-bg-red{
+	background-color: #CD3D0F;
+}
+
+#header-top img{
+	width: 80px;
+}
+
+header .navbar img.ms-lens{
+	width:50%;
+}
+
+section#game-window>.container-fluid:first-of-type{
 	height:70vh;
 	background: url(../img/jumbo-bg.png) top / cover;
 }
 
-section#returnal .returnal-jumbo{
-	height:65vh;
+section#game-window .returnal-jumbo{
+	height:95%;
 }
 
-section#console5 .ms-card{
-	
+section#game-window .ms-game-logo{
+	width:50%;
 }
