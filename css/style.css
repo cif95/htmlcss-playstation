@@ -1,8 +1,3 @@
-
-header{
-	font-family:  Helvetica, sans-serif;
-}
-
 main{
 	font-family: Arial, sans-serif;
 }
@@ -31,8 +26,12 @@ main{
 	color:#2E8BD6;
 }
 
+.ms-border-blue{
+	border-color:#2F8CD7 !important;
+}
+
 .ms-rounded-4{
-	border-radius:1rem;
+	border-radius:2rem;
 }
 
 .ms-fs-large{
@@ -47,8 +46,16 @@ main{
 	height:95%;
 }
 
+.ms-chevron{
+	width:10px;
+}
+
 header section#header-top img{
 	width:80px;
+}
+
+header section#header-nav{
+	font-family:  Helvetica, sans-serif;
 }
 
 header section#header-nav .navbar img.ms-lens{
