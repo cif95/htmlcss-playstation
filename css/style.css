@@ -11,6 +11,10 @@ main{
 	background-color: #363636;
 }
 
+.ms-bg-lightgrey{
+	background-color: #D9DADC;
+}
+
 .ms-bg-red{
 	background-color: #CD3D0F;
 }
@@ -57,4 +61,9 @@ section#console5 figure.ms-card img{
 section#it-takes-two>.container-fluid{
 	height:70vh;
 	background: url(../img/it-takes-two-hero-banner-desktop.jpg) top / cover;
+}
+
+
+section#play-plus>.container-fluid{
+	background-color:#BEBCBB;
 }
