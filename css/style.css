@@ -1,4 +1,5 @@
 main{
+	overflow: hidden;
 	font-family: Arial, sans-serif;
 }
 
@@ -38,6 +39,10 @@ main{
 	font-size:3rem;
 }
 
+.ms-banner-logo{
+	width:60%;
+}
+
 .ms-banner-content{
 	height:95%;
 }
@@ -63,13 +68,7 @@ section#returnal>.container-fluid:first-of-type{
 	background: url(../img/jumbo-bg.png) top / cover;
 }
 
-.ms-banner-logo,
-section#console5 figure.ms-card img{
-	width:60%;
-}
-
 section#it-takes-two>.container-fluid{
-	height:70vh;
 	background: url(../img/it-takes-two-hero-banner-desktop.jpg) top / cover;
 }
 
