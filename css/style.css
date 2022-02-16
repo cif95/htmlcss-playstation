@@ -3,6 +3,10 @@ main{
 	font-family: Arial, sans-serif;
 }
 
+a.btn:hover{
+	opacity: .7;
+}
+
 .ms-bg-darkgrey{
 	background-color: #363636;
 }
@@ -51,12 +55,30 @@ main{
 	width:10px;
 }
 
+section#returnal figure.ms-game-card img:hover{
+	padding:.25rem;
+	background-color: #fff;
+	border: 3px solid #2F8CD7;
+	border-radius: .25rem;
+	max-width: 100%;
+	border-radius:2rem;
+	height: auto;
+}
+
 header section#header-top img{
 	width:80px;
 }
 
 header section#header-nav{
 	font-family:  Helvetica, sans-serif;
+}
+
+header section#header-nav ul.navbar-nav li.nav-item:hover a.nav-link{
+	color:#2E8BD6 !important;
+}
+
+header section#header-nav ul.navbar-nav li a.btn:hover{
+	background-color: #585858!important;
 }
 
 header section#header-nav .navbar img.ms-lens{
