@@ -1,4 +1,11 @@
 
+header{
+	font-family:  Helvetica, sans-serif;
+}
+
+main{
+	font-family: Arial, sans-serif;
+}
 
 .ms-bg-darkgrey{
 	background-color: #363636;
@@ -40,7 +47,7 @@ section#returnal>.container-fluid:first-of-type{
 
 .ms-banner-logo,
 section#console5 figure.ms-card img{
-	width:50%;
+	width:60%;
 }
 
 section#it-takes-two>.container-fluid{
