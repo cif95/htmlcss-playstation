@@ -23,6 +23,10 @@ main{
 	background-color: #161C3B;
 }
 
+.ms-bg-blue{
+	background-color: #00439C;
+}
+
 .ms-text-blue{
 	color:#2E8BD6;
 }
@@ -70,4 +74,8 @@ section#it-takes-two>.container-fluid{
 
 section#play-plus>.container-fluid{
 	background-color:#BEBCBB;
+}
+
+footer img#footer-logo{
+	width:100px;
 }
