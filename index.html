@@ -13,61 +13,65 @@
 <body>
 	<header>
 		<!-- top header -->
-		<div class="container-fluid">
-			<div class="row bg-dark text-white" id="header-top">
-				<div class="col-12 p-2 text-end">
-					<img src="img/sony_logo.svg" class="img-fluid" alt="sony logo">
+		<section id="header-top">
+			<div class="container-fluid">
+				<div class="row bg-dark text-white" >
+					<div class="col-12 p-2 text-end">
+						<img src="img/sony_logo.svg" class="img-fluid" alt="sony logo">
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- header navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			<div class="container-fluid pe-0 ps-2">
-				<a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="playstation logo"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="left-navbar">
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Giochi</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Hardware</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Servizi</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Novità</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Fai acquisti</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">Supporto</a>
-						</li>
-					</ul>
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="right-navbar">
-						<li class="nav-item">
-							<a class="nav-link text-dark" href="#">My playstation</a>
-						</li>
-						<li class="px-3">
-							<a class="btn ms-bg-darkgrey rounded-pill text-white pb-2 fw-bold" href="#" role="button">Accedi</a>
-						</li>
-						<li class="p-1">
-							<img class="img-fluid ms-lens" src="img/lens.svg" alt="lens icon">
-						</li>
-					</ul>
+		<section id="header-nav">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white">
+				<div class="container-fluid pe-0 ps-2">
+					<a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt="playstation logo"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="left-navbar">
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Giochi</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Hardware</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Servizi</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Novità</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Fai acquisti</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">Supporto</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="right-navbar">
+							<li class="nav-item">
+								<a class="nav-link text-dark" href="#">My playstation</a>
+							</li>
+							<li class="px-3">
+								<a class="btn ms-bg-darkgrey rounded-pill text-white pb-2 fw-bold" href="#" role="button">Accedi</a>
+							</li>
+							<li class="p-1">
+								<img class="img-fluid ms-lens" src="img/lens.svg" alt="lens icon">
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</section>
 	</header>
 	<main>
 		<!-- section returnal banner -->
 		<section class=" my-banner" id="returnal">
 			<div class="container-fluid p-sm-5">
-				<div class="row text-white align-items-end banner-content">
+				<div class="row text-white align-items-end ms-banner-content">
 					<div class="col-12 col-xl-4">
 						<img class="img-fluid ms-banner-logo" src="img/returnal-hero-banner-logo.png" alt="returnal logo">
 						<h1 class="py-3">Rompi il cerchio</h1>
@@ -183,7 +187,7 @@
 		<!-- section it takes two -->
 		<section class="my-banner" id="it-takes-two">
 			<div class="container-fluid p-sm-5">
-				<div class="row text-white align-items-end banner-content">
+				<div class="row text-white align-items-end ms-banner-content">
 					<div class="col-12 col-xl-3">
 						<img class="img-fluid ms-banner-logo" src="img/it-takes-two-logo.png" alt="it takes two logo">
 						<h1 class="py-3">Un'avventura cooperativa selvaggia ti attende</h1>
@@ -354,7 +358,7 @@
 		<!-- section playstation plus -->
 		<section class="my-banner" id="play-plus">
 			<div class="container-fluid px-sm-5">
-				<div class="row banner-content align-items-center">
+				<div class="row ms-banner-content align-items-center">
 					<div class="col-12 col-md-6 py-5">
 						<img class="img-fluid ms-banner-logo pb-4" src="img/ps-plus-logo.png" alt="playstation plus logo">
 						<p class="fs-5 pb-3">
@@ -399,7 +403,7 @@
 		<!-- section playstation now -->
 		<section class="my-banner" id="play-now">
 			<div class="container-fluid px-sm-5 ms-bg-nightblue">
-				<div class="row banner-content align-items-center">
+				<div class="row ms-banner-content align-items-center">
 					<div class="col-12 col-md-6 py-5 text-white">
 						<img class="img-fluid ms-banner-logo pb-4" src="img/ps-now-logo-two-column.png" alt="playstation now logo">
 						<p class="fs-5 pb-3">
@@ -418,9 +422,10 @@
 		<!-- / section playstation now -->
 	</main>
 	<footer>
+		<!-- footer social section -->
 		<section id="social">
 			<div class="container-fluid px-sm-5 py-5">
-				<div class="row g-3 justify-content-center">
+				<div class="row g-3 justify-content-center pb-5">
 					<div class="col-12 text-center pb-5">
 						<h2>Seguici sui social media</h2>
 					</div>
@@ -439,42 +444,53 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<!-- / footer social section -->
+		<!-- footer main section -->
+		<section id="main-footer">
 			<div class="container-fluid px-sm-5 py-5 ms-bg-blue text-white">
-				<div class="row justify-content-between py-4">
-					<div class="col-4">
-						<img class="pb-4" id="footer-logo" src="img/ps-footer.svg" alt="playstation logo">
-						<p class="text-capitalize fw-bold">country / region: italy</p>
+				<div class="row py-4">
+					<div class="col-12  col-xl-6">
+						<img class="pb-4 footer-pslogo" src="img/ps-footer.svg" alt="playstation logo">
+						<!-- <img class="language" src="img/language-globe.svg" alt="globe icon"> -->
+						<p class="ms-country text-capitalize fw-bold">country / region: italy</p>
 					</div>
-					<div class="col-4 d-flex">
-						<ul class="list-unstyled mx-4">
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>						
-						</ul>
-						<ul class="list-unstyled mx-5">
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>								
-						</ul>
-						<ul class="list-unstyled mx-4">
-							<li>Footer link</li>
-							<li>Footer link</li>
-							<li>Footer link</li>
-						</ul>
+					<nav class="col-12 col-xl-6 ">
+						<div class="row py-5 d-flex">
+							<ul class="col-12 col-md-4 list-unstyled px-4">
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>						
+							</ul>
+							<ul class="col-12 col-md-4 list-unstyled px-4">
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>								
+							</ul>
+							<ul class="col-12 col-md-4 list-unstyled px-4">
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+								<li><a href="#" class="text-white text-decoration-none">Footer link</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="col-12  col-xl-6">
+						<img class="pb-4 footer-sielogo" src="img/sie-logo.svg" alt="sony interactive entertainment logo">
+						<p class="fw-bold">
+							Website &copy;2021 Sony Interactive Entertainment Europe Limited.
+							Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati.
+							<a class="text-white" href="#">Maggiori info</a> 
+						</p>
 					</div>
-				</div>
-				<div class="row py-5">
-					<div class="col-12">sony</div>
 				</div>
 			</div>
 		</section>
+		<!-- / footer main section -->
 	</footer>
 </body>
 </html>

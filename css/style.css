@@ -43,17 +43,16 @@ main{
 	font-size:2.5rem;
 }
 
-.banner-content{
+.ms-banner-content{
 	height:95%;
 }
 
-header .navbar img.ms-lens{
-	width:50%;
+header section#header-top img{
+	width:80px;
 }
 
-
-#header-top img{
-	width:80px;
+header section#header-nav .navbar img.ms-lens{
+	width:50%;
 }
 
 section#returnal>.container-fluid:first-of-type{
@@ -76,6 +75,23 @@ section#play-plus>.container-fluid{
 	background-color:#BEBCBB;
 }
 
-footer img#footer-logo{
+section#main-footer img.footer-pslogo{
 	width:100px;
+}
+
+section#main-footer img.language{
+	width:20px;
+}
+
+section#main-footer img.footer-sielogo{
+	width:150px;
+}
+
+section#main-footer p.ms-country::before{
+	content:url(../img/language-globe.svg);
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
 }
