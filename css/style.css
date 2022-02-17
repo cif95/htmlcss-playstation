@@ -56,9 +56,9 @@ main{
 }
 
 .btn-thumb:hover{
-	padding: .85rem .2rem .95rem;
-	display: inline;
-	border-radius: 50rem;
+	padding: 2px;
+	border-radius: 2rem;
+	width: max-content;
 }
 
 .btn-thumb.ms-red:hover{
