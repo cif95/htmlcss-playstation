@@ -3,10 +3,6 @@ main{
 	font-family: Arial, sans-serif;
 }
 
-a.btn:hover{
-	opacity: .7;
-}
-
 .ms-bg-darkgrey{
 	background-color: #363636;
 }
@@ -36,7 +32,7 @@ a.btn:hover{
 }
 
 .ms-rounded-4{
-	border-radius:2rem;
+	border-radius:1rem;
 }
 
 .ms-fs-large{
@@ -55,14 +51,8 @@ a.btn:hover{
 	width:10px;
 }
 
-section#returnal figure.ms-game-card img:hover{
-	padding:.25rem;
-	background-color: #fff;
-	border: 3px solid #2F8CD7;
-	border-radius: .25rem;
-	max-width: 100%;
-	border-radius:2rem;
-	height: auto;
+.ms-pt-hd{
+	padding-top:116px;
 }
 
 header section#header-top img{
@@ -90,10 +80,18 @@ section#returnal>.container-fluid:first-of-type{
 	background: url(../img/jumbo-bg.png) top / cover;
 }
 
+section#returnal figure.ms-game-card img:hover{
+	transform: translate(0, -15%);
+	filter: drop-shadow(0 8px 8px rgb(68, 68, 68));
+}
+
+section#returnal figure.ms-game-card img{
+	transition: all .3s ease-in-out;
+}
+
 section#it-takes-two>.container-fluid{
 	background: url(../img/it-takes-two-hero-banner-desktop.jpg) top / cover;
 }
-
 
 section#play-plus>.container-fluid{
 	background-color:#BEBCBB;
