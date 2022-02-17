@@ -55,6 +55,30 @@ main{
 	padding-top:116px;
 }
 
+.btn-thumb:hover{
+	padding: .85rem .2rem .95rem;
+	display: inline;
+	border-radius: 50rem;
+}
+
+.btn-thumb.ms-red:hover{
+	box-shadow: 0 0 0 2px #CD3D0F !important;
+}
+
+.btn-thumb.ms-lightgrey:hover{
+	box-shadow: 0 0 0 2px #D9DADC !important;
+}
+
+.btn-thumb.ms-primary:hover{
+	box-shadow: 0 0 0 2px #0b5ed7 !important;
+}
+
+.btn-thumb.ms-white:hover{
+	box-shadow: 0 0 0 2px white !important;
+}
+
+
+
 header section#header-top img{
 	width:80px;
 }
@@ -81,12 +105,12 @@ section#returnal>.container-fluid:first-of-type{
 }
 
 section#returnal figure.ms-game-card img:hover{
-	transform: translate(0, -15%);
-	filter: drop-shadow(0 8px 8px rgb(68, 68, 68));
+	transform: translate(0, -10%);
+	filter: drop-shadow(0 8px 6px rgb(129, 129, 129));
 }
 
 section#returnal figure.ms-game-card img{
-	transition: all .3s ease-in-out;
+	transition: all .25s ease-in-out;
 }
 
 section#it-takes-two>.container-fluid{
