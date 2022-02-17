@@ -3,6 +3,7 @@ main{
 	font-family: Arial, sans-serif;
 }
 
+
 .ms-bg-darkgrey{
 	background-color: #363636;
 }
@@ -55,28 +56,27 @@ main{
 	padding-top:116px;
 }
 
-.btn-thumb:hover{
+.ms-btn-thumb{
 	padding: 2px;
 	border-radius: 2rem;
 	width: max-content;
 }
 
-.btn-thumb.ms-red:hover{
+.ms-btn-thumb.ms-red:hover{
 	box-shadow: 0 0 0 2px #CD3D0F !important;
 }
 
-.btn-thumb.ms-lightgrey:hover{
+.ms-btn-thumb.ms-lightgrey:hover{
 	box-shadow: 0 0 0 2px #D9DADC !important;
 }
 
-.btn-thumb.ms-primary:hover{
+.ms-btn-thumb.ms-primary:hover{
 	box-shadow: 0 0 0 2px #0b5ed7 !important;
 }
 
-.btn-thumb.ms-white:hover{
+.ms-btn-thumb.ms-white:hover{
 	box-shadow: 0 0 0 2px white !important;
 }
-
 
 
 header section#header-top img{
@@ -105,12 +105,25 @@ section#returnal>.container-fluid:first-of-type{
 }
 
 section#returnal figure.ms-game-card img:hover{
-	transform: translate(0, -10%);
+	transform: translate(0, -8%);
 	filter: drop-shadow(0 8px 6px rgb(129, 129, 129));
 }
 
 section#returnal figure.ms-game-card img{
 	transition: all .25s ease-in-out;
+}
+
+section#console5 .ms-card{
+	border-bottom:3px solid white;
+}
+
+section#console5 .ms-card figcaption{
+	height:60px;
+}
+
+section#console5 .ms-card:hover{
+	opacity: 1 !important;
+	border-color:#2F8CD7;
 }
 
 section#it-takes-two>.container-fluid{
