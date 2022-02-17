@@ -1,0 +1,193 @@
+main{
+	overflow: hidden;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.ms-bg-darkgrey{
+	background-color: #363636;
+}
+
+.ms-bg-lightgrey{
+	background-color: #D9DADC;
+}
+
+.ms-bg-red{
+	background-color: #CD3D0F;
+}
+
+.ms-bg-nightblue{
+	background-color: #161C3B;
+}
+
+.ms-bg-blue{
+	background-color: #00439C;
+}
+
+.ms-text-blue{
+	color:#2E8BD6;
+}
+
+.ms-rounded-4{
+	border-radius:1rem;
+}
+
+.ms-fs-large{
+	font-size:3rem;
+}
+
+.ms-banner-logo{
+	width:50%;
+}
+
+.ms-banner-content{
+	height:95%;
+}
+
+.ms-chevron,
+.ms-chevron-blue{
+	width:10px;
+}
+
+.ms-pt-hd{
+	padding-top:116px;
+}
+
+.ms-btn-thumb{
+	padding: 2px;
+	border-radius: 2rem;
+	width: max-content;
+}
+
+.ms-btn-thumb.ms-red:hover{
+	box-shadow: 0 0 0 2px #CD3D0F !important;
+}
+
+.ms-btn-thumb.ms-lightgrey:hover{
+	box-shadow: 0 0 0 2px #D9DADC !important;
+}
+
+.ms-btn-thumb.ms-primary:hover{
+	box-shadow: 0 0 0 2px #0b5ed7 !important;
+}
+
+.ms-btn-thumb.ms-white:hover{
+	box-shadow: 0 0 0 2px white !important;
+}
+
+header section#header-top img{
+	width:80px;
+}
+
+header section#header-nav{
+	font-family:  Helvetica, sans-serif;
+}
+
+header section#header-nav ul.navbar-nav li.nav-item:hover a.nav-link{
+	color:#2E8BD6 !important;
+}
+
+header section#header-nav ul.navbar-nav li a.btn:hover{
+	background-color: #585858!important;
+}
+
+header section#header-nav ul.navbar-nav li a:hover img.ms-chevron{
+	display: none !important;
+}
+
+header section#header-nav ul.navbar-nav li a:hover img.ms-chevron-blue{
+	display: inline-block !important;
+}
+
+header section#header-nav .navbar img.ms-lens{
+	width:50%;
+}
+
+section#returnal>.container-fluid:first-of-type{
+	height:70vh;
+	background: url(../img/jumbo-bg.png) top / cover;
+}
+
+section#returnal figure.ms-game-card img:hover{
+	transform: translate(0, -8%);
+	filter: drop-shadow(0 8px 6px rgb(129, 129, 129));
+}
+
+section#returnal figure.ms-game-card img{
+	padding: .25rem;
+	background-color: #fff;
+	border: 3px solid transparent;
+	border-radius:1rem;
+	max-width: 100%;
+	height: auto;
+}
+
+section#returnal figure.ms-game-card img:hover{
+	border-color:#2F8CD7;
+}
+
+section#returnal figure.ms-game-card img{
+	transition: all .25s ease-in-out;
+}
+
+
+section#console5 .ms-card figcaption{
+	height:60px;
+}
+
+section#console5 .ms-card:hover{
+	opacity: 1 !important;
+	border-color:#2F8CD7 !important;
+}
+
+section#latest .ms-game-card img{
+	transition: all 1s ease-in-out;
+}
+
+section#latest .ms-game-card:hover figcaption{
+	bottom:0 !important;
+	height: 100% !important;
+}
+
+section#latest .ms-game-card figcaption{
+	transition: all .3s ease-in-out;
+	height:0 !important;
+}
+
+
+section#it-takes-two>.container-fluid{
+	background: url(../img/it-takes-two-hero-banner-desktop.jpg) top / cover;
+}
+
+section#play-plus>.container-fluid{
+	background-color:#BEBCBB;
+}
+
+section#social img:hover{
+	box-shadow: 2px 2px 3px rgb(70, 70, 70);
+}
+
+section#main-footer img.footer-pslogo{
+	width:100px;
+}
+
+section#main-footer nav ul li a:hover{
+	text-decoration: underline !important;
+}
+
+section#main-footer img.language{
+	width:20px;
+}
+
+section#main-footer img.footer-sielogo{
+	width:150px;
+}
+
+section#main-footer p.ms-country::before{
+	content:url(../img/language-globe.svg);
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+}
